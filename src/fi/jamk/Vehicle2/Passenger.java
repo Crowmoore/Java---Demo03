@@ -11,14 +11,14 @@ package fi.jamk.Vehicle2;
  */
 public class Passenger {
     
-    private String passengerName;
-    private int passengerAge;
+    private String name;
+    private int age;
     
-    public Passenger(String passengerName, int passengerAge) {
-        this.passengerName = passengerName;
-        this.passengerAge = passengerAge;
+    public Passenger(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
     public String getPassengerInfo() {
-        return "\n" + this.passengerName + ", " + this.passengerAge;
+        return this.name + ", " + this.age + "\n";
     }
 }

@@ -19,7 +19,7 @@ public class Driver {
         this.age = age;
     }
     public String getDriverInfo() {
-        return "Driver name: " + this.name + "\nDriver age: " + this.age;
+        return "Driver: " + this.name + ", " + this.age + "\n";
     }
     
 }

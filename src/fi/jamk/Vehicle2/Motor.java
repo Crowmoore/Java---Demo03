@@ -19,7 +19,7 @@ public class Motor {
         this.engineSize = engineSize;
     }
     public String getEngineInfo() {
-        return "Engine size: " + this.engineSize + "\nHorsepower: " + this.horsepower + "\n";
+        return "Engine size: " + this.engineSize + " l" + "\nHorsepower: " + this.horsepower + "\n";
     }
     
 }
